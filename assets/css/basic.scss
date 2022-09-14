@@ -1,0 +1,21 @@
+$font-color: #211F54;
+$active-color: #0075FF;
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  padding-top: 5em;
+  color: $font-color;
+}
+
+a {
+  text-decoration: none;
+  color: $font-color;
+  &:hover {
+    color: $active-color;
+  }
+}
